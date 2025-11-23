@@ -24,7 +24,7 @@
 
 3. **영상 제작**
    - 데모 영상 완성 (aiconic_demo_final.mp4)
-   - YouTube 업로드: https://youtu.be/EZ51B_4LKCc
+   - YouTube 업로드: https://youtu.be/UwPvTonK6vo
    - HTML 슬라이드 3개 (tech_stack, differentiation, outro)
    - 나레이션 14개 (ElevenLabs TTS)
 
@@ -90,7 +90,7 @@ git commit -m "Initial commit: SilverLink AI 복지 도우미
 - 시연 영상 포함
 
 🎯 AI-conic 해커톤 C타입
-📺 YouTube: https://youtu.be/EZ51B_4LKCc
+📺 YouTube: https://youtu.be/UwPvTonK6vo
 🌐 Live: https://silverlink-ai-welfare-6kn44w2jypeuce5d9zrsfg.streamlit.app"
 
 # 7. 원격 연결 및 푸시
