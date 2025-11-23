@@ -1,0 +1,42 @@
+# API Keys and Environment Variables
+.env
+.env.local
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+temp_audio.*
+response.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local development
+.claude/
+개발산출물 양식.docx
+개발산출물양식.txt
+
+# Git
+.git/

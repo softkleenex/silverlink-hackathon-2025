@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>아웃트로</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            width: 90%;
+            height: 85%;
+            background: white;
+            border-radius: 30px;
+            padding: 50px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .logo-header {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .logo-header img {
+            width: 600px;
+            height: auto;
+            object-fit: contain;
+        }
+        h1 {
+            font-size: 56px;
+            font-weight: 900;
+            background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 30px;
+        }
+        .qr-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            margin-bottom: 30px;
+        }
+        .qr-box {
+            width: 300px;
+            height: 300px;
+            background: white;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 4px solid #1E88E5;
+            flex-shrink: 0;
+            padding: 20px;
+        }
+        .qr-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .url-section {
+            flex: 1;
+            text-align: left;
+        }
+        .url-label {
+            font-size: 28px;
+            color: #4a5568;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        .url-text {
+            font-size: 38px;
+            font-weight: 700;
+            color: #2d3748;
+            background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 8px solid #1E88E5;
+        }
+        .tagline {
+            font-size: 38px;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+        .slogan {
+            font-size: 30px;
+            color: #1E88E5;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+        .github {
+            font-size: 20px;
+            color: #718096;
+        }
+        .github a {
+            color: #1E88E5;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-header">
+            <img src="logo.svg" alt="SilverLink Logo">
+        </div>
+
+        <h1>🌟 지금 바로 체험하세요!</h1>
+
+        <div class="qr-section">
+            <div class="qr-box">
+                <img src="qr_code.png" alt="QR Code">
+            </div>
+            <div class="url-section">
+                <div class="url-label">🔗 접속 URL</div>
+                <div class="url-text">silverlink-ai.streamlit.app</div>
+            </div>
+        </div>
+
+        <div class="tagline">💙 SilverLink</div>
+        <div class="slogan">기술로 복지 사각지대를 없앱니다</div>
+
+        <div class="github">
+            GitHub: <a href="https://github.com/softkleenex">github.com/softkleenex</a>
+        </div>
+    </div>
+</body>
+</html>
